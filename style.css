@@ -1,0 +1,28 @@
+input[type=radio] {
+    display:none; 
+}
+input[type=radio] + label {
+    display:inline-block;
+ width:95%;
+ padding:10px;
+ border:1px solid #ddd;
+ margin-bottom:10px;
+ cursor:pointer;
+}
+input[type=radio] + label:hover{ border:1px solid #000000;}
+input[type=radio]:checked + label { 
+   background-image: none;
+   background-color:#006622;
+ color:#fff;
+ border:1px solid #006622 !important;
+ -webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+.worngans{ background-color:#D22B2B;color:#fff; border:1px solid #D22B2B !important;-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;}
